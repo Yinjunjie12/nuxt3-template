@@ -1,6 +1,6 @@
 {
-  "name": "nuxt3-starter",
-  "description": "A better nuxt3 starter template",
+  "name": "nuxt-template",
+  "description": "nuxt3  template",
   "private": false,
   "type": "module",
   "scripts": {
