@@ -1,0 +1,35 @@
+{
+  "name": "nuxt3-starter",
+  "description": "A better nuxt3 starter template",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev  --dotenv .env.development --exec",
+    "build": "nuxt build  --dotenv .env.production --exec",
+    "generate": "nuxt generate --incremental",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia/nuxt": "^0.4.11",
+    "@unocss/nuxt": "^0.62.3",
+    "@unocss/reset": "^0.62.3",
+    "@vueuse/nuxt": "^10.9.0",
+    "nuxt": "^3.11.2",
+    "unocss": "^0.62.3"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "2.0.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@unocss/preset-rem-to-px": "^0.62.3",
+    "autoprefixer": "^10.4.20",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "pinia": "^2.1.7",
+    "postcss": "^8.4.41",
+    "postcss-pxtorem": "^6.1.0",
+    "swiper": "^11.1.11",
+    "vue-i18n": "^9.13.1"
+  }
+}
