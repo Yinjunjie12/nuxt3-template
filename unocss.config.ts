@@ -15,7 +15,6 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      // ...
     }
   },
   presets: [presetUno(), presetAttributify(), presetIcons(), presetRemToPx({ baseFontSize: 4 })],
